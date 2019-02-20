@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FtpManager" Version="2.0.0" />
+    <PackageReference Include="SharePointPnPCore2016" Version="3.6.1902" />
+    <PackageReference Include="FileInfoToolbox" Version="1.0.0" />
+    <PackageReference Include="EmpressiaLibrary" Version="1.0.17.1" />
+    <PackageReference Include="Kitsu" Version="1.4.1" />
+    <PackageReference Include="CSharpHelpers" Version="1.0.0" />
+    <PackageReference Include="CinchooXYZ" Version="1.0.0.9" />
+    <PackageReference Include="SymphonyFramework" Version="3.2.31" />
+    <PackageReference Include="Antlr" Version="3.5.0.2" />
+  </ItemGroup>
+</Project>

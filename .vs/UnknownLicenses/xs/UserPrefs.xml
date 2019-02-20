@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{8F384766-4679-4826-9A64-4551C09288B1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnknownLicenses/Program.cs">
+    <Files>
+      <File FileName="UnknownLicenses/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UnknownLicenses FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

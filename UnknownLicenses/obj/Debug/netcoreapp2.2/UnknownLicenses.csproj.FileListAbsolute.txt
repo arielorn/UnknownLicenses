@@ -1,0 +1,11 @@
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/bin/Debug/netcoreapp2.2/UnknownLicenses.deps.json
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/bin/Debug/netcoreapp2.2/UnknownLicenses.runtimeconfig.json
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/bin/Debug/netcoreapp2.2/UnknownLicenses.runtimeconfig.dev.json
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/bin/Debug/netcoreapp2.2/UnknownLicenses.dll
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/bin/Debug/netcoreapp2.2/UnknownLicenses.pdb
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.csprojAssemblyReference.cache
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.csproj.CoreCompileInputs.cache
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.AssemblyInfoInputs.cache
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.AssemblyInfo.cs
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.dll
+/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj/Debug/netcoreapp2.2/UnknownLicenses.pdb
