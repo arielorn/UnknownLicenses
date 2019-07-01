@@ -39,6 +39,19 @@
           "lib/Antlr3.Runtime.dll": {}
         }
       },
+      "AsyncIO/0.1.26": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Net.NameResolution": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/AsyncIO.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/AsyncIO.dll": {}
+        }
+      },
       "Blend.Interctivity.WPF.v4.0/1.0.3": {
         "type": "package",
         "compile": {
@@ -107,6 +120,15 @@
           "lib/netstandard2.0/Kitsu.dll": {}
         }
       },
+      "MathNet.Numerics/4.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.3": {
         "type": "package",
         "compile": {
@@ -157,6 +179,19 @@
       },
       "Microsoft.Bcl.Build/1.0.14": {
         "type": "package"
+      },
+      "Microsoft.CodeCoverage/16.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
       },
       "Microsoft.Data.Edm/5.8.4": {
         "type": "package",
@@ -593,6 +628,17 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Primitives/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1154,6 +1200,38 @@
             "rid": "unix"
           },
           "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Net.NameResolution/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Net.Primitives": "4.0.11",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.Handles": "4.0.1",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Security.Principal.Windows": "4.0.0",
+          "System.Threading": "4.0.11",
+          "System.Threading.Tasks": "4.0.11",
+          "runtime.native.System": "4.0.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Net.NameResolution.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1756,6 +1834,38 @@
           "lib/netstandard1.0/System.Security.Principal.dll": {}
         }
       },
+      "System.Security.Principal.Windows/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.Win32.Primitives": "4.0.1",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Reflection": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.Handles": "4.0.1",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Security.Claims": "4.0.1",
+          "System.Security.Principal": "4.0.1",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Spatial/5.8.4": {
         "type": "package",
         "compile": {
@@ -2018,6 +2128,21 @@
         "lib/Antlr3.Runtime.pdb"
       ]
     },
+    "AsyncIO/0.1.26": {
+      "sha512": "CAYJtP918LYWgsM8YKmiz3uaAbAnv+Bj5HkMoQFVCo8GWIUE4Vib+ulpyIPSMkqeBpcfzcQ+iEuvlt/6eztG9g==",
+      "type": "package",
+      "path": "asyncio/0.1.26",
+      "files": [
+        ".signature.p7s",
+        "asyncio.0.1.26.nupkg.sha512",
+        "asyncio.nuspec",
+        "lib/monoandroid60/AsyncIO.dll",
+        "lib/net35/AsyncIO.dll",
+        "lib/net40/AsyncIO.dll",
+        "lib/netstandard1.3/AsyncIO.dll",
+        "lib/xamarinios10/AsyncIO.dll"
+      ]
+    },
     "Blend.Interctivity.WPF.v4.0/1.0.3": {
       "sha512": "Q0c9aB3lnS6322B4cWP6lfZg7K5Az9h/cohX8Obba/SpcV/+jOViE78kJndmLv1iF3p+g0CB3z0GO6jMac7kHA==",
       "type": "package",
@@ -2097,6 +2222,24 @@
         "kitsu.1.4.1.nupkg.sha512",
         "kitsu.nuspec",
         "lib/netstandard2.0/Kitsu.dll"
+      ]
+    },
+    "MathNet.Numerics/4.4.1": {
+      "sha512": "6099OBB1UPcKddDNFRnXKSKChi6ArGum9h/1h9nsUIWWS4U6Iq+hV3RQGx9fR2pZi4jVbfPDGsKqeykmiMj1lg==",
+      "type": "package",
+      "path": "mathnet.numerics/4.4.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.4.1.nupkg.sha512",
+        "mathnet.numerics.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.3": {
@@ -2246,6 +2389,41 @@
         "tools/Microsoft.Bcl.Build.Tasks.dll",
         "tools/Microsoft.Bcl.Build.targets",
         "tools/Uninstall.ps1"
+      ]
+    },
+    "Microsoft.CodeCoverage/16.0.1": {
+      "sha512": "HEdO9Lyje8ehjMU985e6vZFETAv337R7wukZXng35hhVdTDoSs3OLC/h5guQWhdDyQ+cN9uKUTK3H1GUKTjrYA==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.0.1",
+      "files": [
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.0.1.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
       ]
     },
     "Microsoft.Data.Edm/5.8.4": {
@@ -2957,6 +3135,42 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Primitives/4.0.1": {
+      "sha512": "TOyluUzDpZnxkisx1L0e/a1pwVi1UGAeF5Fs4LdeNIJdZC386nAxKOTmia6p1pg04dMT1KZhTXah3v7gFGPLkw==",
+      "type": "package",
+      "path": "microsoft.win32.primitives/4.0.1",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/Microsoft.Win32.Primitives.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.win32.primitives.4.0.1.nupkg.sha512",
+        "microsoft.win32.primitives.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/Microsoft.Win32.Primitives.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Primitives.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Primitives.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -3813,11 +4027,10 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "sha512": "6+mWEV6E1fvTCn81TgGicYaQxEGB34rC2CGduZjLjhDtn6MgTzGCAnvr0ge5b/w93bhYHa/4uxRvhFygEBTH5A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4272,11 +4485,10 @@
       ]
     },
     "System.Linq.Expressions/4.1.0": {
-      "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
+      "sha512": "+2V3Zyd70Rzso5Yiuthz6E4ZUfD1GY5UycmERrHBXFuhJnXeJVdtC29nx4L1MueUr3kwl0UvK4ntmU4PIoBIvQ==",
       "type": "package",
       "path": "system.linq.expressions/4.1.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4433,6 +4645,47 @@
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
         "system.net.http.4.3.1.nupkg.sha512",
         "system.net.http.nuspec"
+      ]
+    },
+    "System.Net.NameResolution/4.0.0": {
+      "sha512": "tzeTP0r8uMf10LVrbwujDiQSTXNJzjlo2LquRV3b5FHeE2ONwe+EZX9xVmG+KFYaJyFNb2sTNBHA1k1tfSUglw==",
+      "type": "package",
+      "path": "system.net.nameresolution/4.0.0",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Net.NameResolution.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Net.NameResolution.dll",
+        "ref/netstandard1.3/System.Net.NameResolution.dll",
+        "ref/netstandard1.3/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/de/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/es/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/fr/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/it/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/ja/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/ko/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/ru/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.NameResolution.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.NameResolution.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll",
+        "runtimes/win/lib/net46/System.Net.NameResolution.dll",
+        "runtimes/win/lib/netcore50/System.Net.NameResolution.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll",
+        "system.net.nameresolution.4.0.0.nupkg.sha512",
+        "system.net.nameresolution.nuspec"
       ]
     },
     "System.Net.Primitives/4.3.0": {
@@ -4634,11 +4887,10 @@
       ]
     },
     "System.ObjectModel/4.0.12": {
-      "sha512": "tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
+      "sha512": "fW/1SJYt3hlyz/wNeI1UpUaufSxBd/BCFzTqr0D+kpMyypIsoBobaCNMbKXoYBNES5PHFf9LPBNMjyr+r6sN9g==",
       "type": "package",
       "path": "system.objectmodel/4.0.12",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6065,6 +6317,34 @@
         "system.security.principal.nuspec"
       ]
     },
+    "System.Security.Principal.Windows/4.0.0": {
+      "sha512": "VcZzSF6SdNtjC0DEG6XeP0d2cSIKyaebAjDNGlz2+lEGK3zEfZiQjtQS3jY/L8c8vAMMHwZMXUq3Q6gtEGxTKg==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.0.0",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "system.security.principal.windows.4.0.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec"
+      ]
+    },
     "System.Spatial/5.8.4": {
       "sha512": "ZyoIuNvwZV7rkFm5IGeoRFvBaoTXJ1INtPPPxP+exd/QvA+LU63jTjkU/mTo9xq22Nan1AC+gQ13rrA72y9QSw==",
       "type": "package",
@@ -6785,12 +7065,15 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Antlr >= 3.5.0.2",
+      "AsyncIO >= 0.1.26",
       "CSharpHelpers >= 1.0.0",
       "CinchooXYZ >= 1.0.0.9",
       "EmpressiaLibrary >= 1.0.17.1",
       "FileInfoToolbox >= 1.0.0",
       "FtpManager >= 2.0.0",
       "Kitsu >= 1.4.1",
+      "MathNet.Numerics >= 4.4.1",
+      "Microsoft.CodeCoverage >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "SharePointPnPCore2016 >= 3.6.1902",
       "SymphonyFramework >= 3.2.31"
@@ -6803,11 +7086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/UnknownLicenses.csproj",
+      "projectUniqueName": "/Users/ariel/Projects/dotnet/UnknownLicenses/UnknownLicenses/UnknownLicenses.csproj",
       "projectName": "UnknownLicenses",
-      "projectPath": "/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/UnknownLicenses.csproj",
+      "projectPath": "/Users/ariel/Projects/dotnet/UnknownLicenses/UnknownLicenses/UnknownLicenses.csproj",
       "packagesPath": "/Users/ariel/.nuget/packages/",
-      "outputPath": "/Users/ariel/Projects/UnknownLicenses/UnknownLicenses/obj",
+      "outputPath": "/Users/ariel/Projects/dotnet/UnknownLicenses/UnknownLicenses/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6839,6 +7122,10 @@
             "target": "Package",
             "version": "[3.5.0.2, )"
           },
+          "AsyncIO": {
+            "target": "Package",
+            "version": "[0.1.26, )"
+          },
           "CSharpHelpers": {
             "target": "Package",
             "version": "[1.0.0, )"
@@ -6862,6 +7149,14 @@
           "Kitsu": {
             "target": "Package",
             "version": "[1.4.1, )"
+          },
+          "MathNet.Numerics": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          },
+          "Microsoft.CodeCoverage": {
+            "target": "Package",
+            "version": "[16.0.1, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
